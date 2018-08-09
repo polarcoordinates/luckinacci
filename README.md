@@ -30,7 +30,7 @@ starting from seed values <img src="https://latex.codecogs.com/gif.latex?2" titl
 
 There are <img src="https://latex.codecogs.com/gif.latex?23" title="23" /> Luckinaccis less-than-or-equal-to <img src="https://latex.codecogs.com/gif.latex?100" title="100" />, which initially gave us hope that the Luckinaccis could also be approximated with <img src="https://latex.codecogs.com/gif.latex?\Pi(n)" title="\Pi(n)" />.
 
-A C++ program was developed to generate the Luckinacci sequence, which can be found in this Github repository. The program provided data for Luckinacci numbers and Luckinacci primes up to <img src="https://latex.codecogs.com/gif.latex?75,000,000" title="75,000,000" />. The results were presented in October 2013 at the Louis Stokes Alliances for Minority Participation (LSAMP) conference, and later at the 2013 Texas Undergraduate Mathematics Conference (TUMC).
+A C++ program was developed to generate the Luckinacci sequence, which can be found in this Github repository. The program provided data for Luckinacci numbers and Luckinacci primes up to <img src="https://latex.codecogs.com/gif.latex?75,000,000" title="75,000,000" />. <strong>The results were presented in October 2013 at the Louis Stokes Alliances for Minority Participation (LSAMP) conference, and later at the 2013 Texas Undergraduate Mathematics Conference (TUMC)</strong>.
 
 # Analysis of the data
 
