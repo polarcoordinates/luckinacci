@@ -20,7 +20,11 @@ Afterwards, we declare the next surviving number (<img src="https://latex.codeco
 
 By inspection, we see that there are <img src="https://latex.codecogs.com/gif.latex?23" title="23" /> Lucky numbers up to 100. Indeed, the prime numbers and the lucky numbers share similarities, and it is conjectured that the Lucky numbers also follow the Prime Counting Function. A research group conducted under Dr. Paul Oeser and Dr. Jack Bennett in 2012 investigated this link and produced numerical results up to <img src="https://latex.codecogs.com/gif.latex?100,000" title="100,000" /> showing the link, and determined the Lucky-Primes up to <img src="https://latex.codecogs.com/gif.latex?100,000" title="100,000" />.
 
-A follow-up to that research in 2013 was investigating a new numerical sieve combining the idea of Lucky numbers with the <a href="http://mathworld.wolfram.com/FibonacciNumber.html">Fibonacci sequence</a>. The question we hoped to answer was whether or not the Lucky-Fibonacci mixture (titled <strong>The Luckinacci Sequence</strong>) also followed the Prime Counting Function and other properties conjectured to be shared by primes and luckies. The Luckinacci sieve uses the idea of the Lucky number sieve, but instead the number we use as the counter for elimination is based on the Fibonacci sequence:
+A follow-up to that research in 2013 was investigating a new numerical sieve combining the idea of Lucky numbers with the <a href="http://mathworld.wolfram.com/FibonacciNumber.html">Fibonacci sequence</a>,
+
+<p align="center"><img src="https://latex.codecogs.com/gif.latex?F(n)&space;=&space;F(n-1)&space;&plus;&space;F(n-2)\hspace{1cm}n\ge3." title="F(n) = F(n-1) + F(n-2)\hspace{1cm}n\ge3." /></p>
+
+The question we hoped to answer was whether or not the Lucky-Fibonacci mixture (herein titled <strong>The Luckinacci Sequence</strong>) also followed the Prime Counting Function and other properties conjectured to be shared by primes and luckies. The Luckinacci sieve uses the idea of the Lucky number sieve, but instead the number we use as the counter for elimination is based on the Fibonacci sequence:
 
 <p align="center">0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765...</p>
 
