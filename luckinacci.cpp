@@ -3,6 +3,10 @@
  *  Program by Casey Brito
  *  
  *  Original Program (c) 2013, Revisions (c) 2018.
+ *  NOTE!!! To compile, you will need a C++11 compiler or better.
+ *  For example, navigate to where you downloaded the file in a command line or terminal. Then,
+ *  for Windows, enter:         g++ -std=c++11 luckinacci.cpp -o luckinacci.exe       
+ *  for Linux, enter:           g++ -std=c++11 luckinacci.cpp -o luckinacci
  *
  */
 
@@ -161,7 +165,7 @@ int main(int argc, char **argv)
     cout << "The ratio of " << luckinacciMax << "/ln(" << luckinacciMax << ") to " << Luckinacci.size() << 
     " (the number of Luckinacci-Primes) is \n\t" << ((double)luckinacciMax / log((double)luckinacciMax)) / ((double)Luckinacci.size()) << endl;
     
-    cout << "Press any key to continue...";
+    cout << "Enter any character to continue...";
     char input;
     cin >> input;
     
